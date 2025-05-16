@@ -1,15 +1,36 @@
-*.iml
-.gradle
+# Android Studio 项目的 .gitignore
+
+# 个人配置
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/runConfigurations/
+.idea/libraries/
+.idea/dictionaries/
+.idea/codeStyles/
+.idea/caches/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/assetWizardSettings.xml
+.idea
+
+# 保留以下配置（团队共享）
+!.idea/modules.xml       # 项目模块结构
+!.idea/misc.xml          # 若不包含敏感路径
+!.idea/vcs.xml           # VCS 配置
+*.iml                    # 模块配置文件
+
+# 构建文件
+/build/
+.gradle/
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
+
+# 签名配置
+*.jks
+*.keystore
+
+# 本地生成的文件
+*.iml
+out/
+
