@@ -7,29 +7,55 @@
         android:id="@+id/power"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="12sp"
         android:text="@string/power" />
 
     <Button
         android:id="@+id/volume_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/volume" />
+        android:textSize="12sp"
+        android:text="@string/volume_up" />
 
     <Button
-        android:id="@+id/scroll"
+        android:id="@+id/volume_down"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/scroll" />
+        android:textSize="12sp"
+        android:text="@string/volume_down" />
 
     <Button
-        android:id="@+id/swipe"
+        android:id="@+id/scroll_down"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/swipe" />
+        android:textSize="12sp"
+        android:text="@string/scroll_down" />
+
+    <Button
+        android:id="@+id/scroll_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/scroll_up" />
+
+    <Button
+        android:id="@+id/swipe_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/swipe_right" />
+
+    <Button
+        android:id="@+id/swipe_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="@string/swipe_left" />
 
     <Button
         android:id="@+id/simulateTouch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="12sp"
         android:text="@string/simulateTouch" />
 </LinearLayout>

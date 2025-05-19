@@ -3,8 +3,11 @@
     <string name="accessibility_service_label">Accessibility Service Example</string>
     <string name="accessibility_service_description">Just a Example of Accessibility Service implementation create by fahriansyah</string>
     <string name="power">Power</string>
-    <string name="volume">Volume Up</string>
-    <string name="scroll">Scroll Down</string>
-    <string name="swipe">Swipe Right</string>
+    <string name="volume_up">Volume Up</string>
+    <string name="volume_down">Volume Down</string>
+    <string name="scroll_down">Scroll Down</string>
+    <string name="scroll_up">Scroll Up</string>
+    <string name="swipe_right">Swipe Right</string>
+    <string name="swipe_left">Swipe Left</string>
     <string name="simulateTouch">Simulate Touch</string>
 </resources>
